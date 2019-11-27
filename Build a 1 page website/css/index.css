@@ -8,25 +8,49 @@ nav {
     color: lightgray;
     background-color: rgb(41, 40, 40);
   }
-  .left {
-    height: 500px;
+  .leftshort {
     float: left;
+    height: 400px;
     background-color: lightblue;
     width: 30%;
     text-align: center;
   }
+  .leftlong {
+    float: left;
+    height: 400px;
+    background-color: lightblue;
+    width: 30%;
+    text-align: left;
+  }
+  img {
+    width: 150px;
+  }
   .right {
-    height: 500px;
     float: left;
     background-color: lightgreen;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+  }
+  .rightshort {
+    float: left;
+    background-color: lightgreen;
+    height: 400px;
     width: 70%;
     text-align: center;
   }
+  .rightlong {
+    float: left;
+    background-color: lightgreen;
+    height: 400px;
+    width: 70%;
+    text-align: left;
+  } 
   .card {
     display: inline-block;
     background-color: #C6C6C6;
     border-radius: 5px;
-    height: 200px;
+    height: 150px;
     width: 150px;
     margin: 35px;
     margin-top: 50px;
